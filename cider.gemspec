@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Cider::VERSION
   gem.authors       = ["Alexey Blinov"]
   gem.email         = ["nilcolor@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Helps you load development seed. That is - seeds like a migrations: with versions etc.}
+  gem.summary       = "{cider-#{gem.version}"
+  gem.homepage      = "http://github.com/nilcolor/cider"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

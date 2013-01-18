@@ -1,0 +1,5 @@
+# encoding: utf-8
+# This should be like any seed you were making. Like this:
+#
+#   user = User.find_by_email('name@example.com')
+#   Post.create! title: 'Some Cool Title', author: user
